@@ -1,0 +1,23 @@
+.text-sidebar{
+    display: none !important;    
+}
+.sidebar{
+    width: auto;
+    min-height: 100% !important;
+    z-index: 999 !important;
+}
+.sidebar:hover .text-sidebar{
+    display: inline-block !important;
+    z-index: 10 !important
+}
+
+@media (max-width: 650px) {
+    .sidebar{
+        display: none !important;
+    }
+}
+@media (min-width: 650px) {
+    .row-ml{
+        margin-left: 4rem !important;
+    }
+}

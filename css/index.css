@@ -1,0 +1,122 @@
+.carousel-item img{
+    width:100%;
+}
+.container-fluid{
+    max-width:1600px !important
+}
+body{
+    padding-top:0 !important
+}
+#contenido{
+    max-width:1200px !important
+}
+.content-img-owl-producto {
+    position: relative !important;
+    height: 19rem !important;
+}
+.img-producto{
+    max-width:100% !important;
+    max-height:100% !important;
+}
+.nombre-producto{
+    font-size: 18px !important;
+}
+.break-word{
+    word-break: break-word !important;
+}
+.icon-favorito{
+    position: absolute !important;
+    top: 8px !important;
+    right: 5px !important;
+}
+#owl-categorias .item{
+    width: 110px;
+    height: 110px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+#owl-categorias .item:hover,.owl-productos .rounded:hover,.label-favorito:hover{
+    box-shadow: 0  4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.label-favorito{
+    font-size:22px !important;
+    cursor:pointer !important;
+    border-radius:100px !important;
+    padding:14px 10px 10px 10px  !important;
+    height:37px !important;
+    width:37px !important;
+    background-color:rgba(255,255,255,0.9) !important;
+    color: #34626c !important;
+}
+
+@media (max-width: 620px) {
+    #owl-categorias .item{
+        width: 95px !important;
+        height: 95px !important;
+    } 
+    #owl-categorias strong{
+        font-size:14px
+    }
+}
+@media (min-width: 900px){
+    .carousel-item {
+        height:340px;
+        width:100% !important;
+        position:relative !important; 
+    }
+    .carousel-item img{
+        height: 100%;  
+        top: 50% !important;
+        left: 50% !important;
+        position:absolute !important; 
+        transform: translate(-50%, -50%);
+        width: auto !important
+    }
+}
+@media (min-width: 1010px){
+    .content-img-owl-producto {
+        height: 20rem !important;
+    }
+}
+
+@media (max-width: 565px) {
+    #owl-categorias .item{
+        width: 90px !important;
+        height: 90px !important;
+    } 
+    #envios{
+        display:none !important
+    }
+    #info{
+        margin:0 !important;
+        padding-top:5px !important;
+        padding-bottom:5px !important;
+    }
+}
+@media (max-width: 800px) {
+    #devoluciones{
+        display:none !important
+    }
+}
+@media (max-width: 500px) {
+    .content-img-owl-producto{
+        height:13rem !important
+    }
+    .owl-productos h5{
+        font-size:15px !important
+    }
+    h4{
+        font-size:22px !important
+    }
+    #precio{
+        padding-top:4px !important;
+    }
+}
+.texto-suspensivo {
+    width:100% !important;
+    overflow:hidden !important;
+    white-space:nowrap !important;
+    text-overflow: ellipsis !important;
+}

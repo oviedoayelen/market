@@ -1,0 +1,17 @@
+#accordion-filtros{
+    max-height: 400px !important;
+    overflow-y: auto !important;
+}
+.decoration-none{
+    text-decoration: none !important;
+    box-shadow: none !important
+}
+.rotate-icon{
+    transform: rotate(180deg) !important;
+    transition: transform 0.5s !important;
+}
+@media (min-width: 650px) {
+    .form-mobile{
+        display: none !important;
+    }
+}

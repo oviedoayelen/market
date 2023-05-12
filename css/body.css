@@ -1,0 +1,45 @@
+body {
+    background-color:#e8efeb !important;
+    margin: 3.3rem 0 5rem 0 !important;
+}
+.nav-bg-color, footer{
+  background-color:#1e212d !important;
+}
+.nav-mobile{
+  display: none !important;
+}
+button:focus {
+    outline:0 !important;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 999 !important
+}
+.btn-color{
+  background-color:#34626c !important;
+  color:white !important;
+}
+
+@media (max-width: 650px) {
+  .nav-desktop{
+    display: none !important;
+  }
+  .nav-mobile{
+    display: block !important;
+  }
+  body {
+    margin: 5.5rem 0 5rem 0 !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav-font-size{
+    font-size: 14px !important
+  }
+}

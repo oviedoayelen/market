@@ -1,0 +1,14 @@
+.content-img{
+    width:160px !important;
+    height:160px !important;
+}
+@media (max-width: 450px) {
+    .content-img{
+        width:130px !important;
+        height:130px !important;
+    }
+}
+.content-img img{
+    max-width:100% !important;
+    max-height:100% !important 
+}

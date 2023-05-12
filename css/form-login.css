@@ -1,0 +1,18 @@
+#card-body-login{
+    padding: 50px 60px 30px 60px !important       
+}
+#form-login{
+    max-width:550px;
+}
+.container-fluid{
+    width: 100%;  
+    min-height: 80vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width: 400px) {
+    #card-body-login{
+        padding: 50px 35px 30px 35px !important       
+    }
+}

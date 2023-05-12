@@ -1,0 +1,4 @@
+
+17/03/2023 18:33:50	SQLSTATE[HY000] [1045] Access denied for user 'id16504398_tiendafull'@'localhost' (using password: YES)
+17/03/2023 18:35:04	SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+17/03/2023 18:36:05	SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
